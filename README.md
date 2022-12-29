@@ -5,7 +5,7 @@
 ## Table of Contents
 * [General Info](#general-information)
 * [Technologies Used](#technologies-used)
-* [Features](#features)
+* [Coding Questions](#coding-questions)
 * [Setup](#setup)
 * [Project Status](#project-status)
 * [Room for Improvement](#room-for-improvement)
@@ -19,7 +19,7 @@
 ## Technologies Used
 - I will use Javascript primarily. I may add some Python in there. 
 
-## Features
+## Coding Questions
 Skills to work on:
 - Searches
 - Recursion
