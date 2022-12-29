@@ -17,7 +17,7 @@
 - Result 100 days later: To be continued...
 
 ## Technologies Used
-- I will use Javascript primarily. I may add some Python in there. 
+- I will use Javascript primarily. I may add some Python. 
 
 ## Coding Questions
 Skills to work on:
