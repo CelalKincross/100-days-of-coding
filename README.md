@@ -6,15 +6,11 @@
 * [General Info](#general-information)
 * [Technologies Used](#technologies-used)
 * [Features](#features)
-<!-- * [Screenshots](#screenshots) -->
 * [Setup](#setup)
-<!-- * [Usage](#usage) -->
 * [Project Status](#project-status)
 * [Room for Improvement](#room-for-improvement)
 * [Acknowledgements](#acknowledgements)
 * [Contact](#contact)
-<!-- * [License](#license) -->
-
 
 ## General Information
 - My programming skills need some fine tuning, so, the overall goal is to improve my general programming skills in a short period of time.
@@ -30,25 +26,13 @@ Skills to work on:
 - General problem solving skills
 
 1. Given a linked list, delete the middle node. If the list is even length, delete the node at the start of the second half of the list.
-<!-- ## Screenshots
-![Example screenshot](./img/screenshot.png)
-If you have screenshots you'd like to share, include them here. -->
 
 ## Setup
 All you need is VSCODE.
 
-
-<!-- ## Usage
-How does one go about using it?
-Provide various use cases and code examples here.
-
-`write-your-code-here` -->
-
-
 ## Project Status
 Project is: _in progress_ 
 <!-- / _complete_ / _no longer being worked on_. If you are no longer working on it, provide reasons why. -->
-
 
 ## Room for Improvement
 
@@ -67,10 +51,3 @@ To do:
 
 ## Contact
 Created by [@Lee](https://celalkincross.github.io/) - feel free to contact me!
-
-
-<!-- Optional -->
-<!-- ## License -->
-<!-- This project is open source and available under the [... License](). -->
-
-<!-- You don't have to include all sections - just the one's relevant to your project -->
