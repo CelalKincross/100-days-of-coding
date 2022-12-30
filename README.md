@@ -26,6 +26,18 @@ Skills to work on:
 - General problem solving skills
 
 1. Given a linked list, delete the middle node. If the list is even length, delete the node at the start of the second half of the list.
+- Use Fast/Slow pattern to find the middle node 
+
+`  while (fast) {
+    // Slow moves ahead one.
+    slow = slow.next;
+    // Fast moves ahead two.
+    fast = fast.next?.next;
+  }`
+
+- in this case, when the fast hits null, slow will equal the middle node. 
+- you can also create a new temporary head to make things easier, and will require slow to iterate one position further at the end. 
+
 
 ## Setup
 All you need is VSCODE.
