@@ -1,6 +1,7 @@
 // Prompt
 // Given a 2D rectangular matrix, return all of the values in a single, linear array in spiral order. Start at (0, 0) and first include everything in the first row. Then down the last column, back the last row (in reverse), and finally up the first column before turning right and continuing into the interior of the matrix.
 
+//resources: https://www.youtube.com/watch?v=ajSXu2D2gzg&t=0s
  
 
 // For example:
