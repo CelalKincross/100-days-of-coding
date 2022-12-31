@@ -42,7 +42,7 @@ Skills to work on:
 // Given a 2D rectangular matrix, return all of the values in a single, linear array in spiral order. Start at (0, 0) and first include everything in the first row. Then down the last column, back the last row (in reverse), and finally up the first column before turning right and continuing into the interior of the matrix.
 
 - first attempt was the naive way.
-- 
+- answer use loops in a switch statment with directions, row start and end variables along with column start and end varialbes. 
 
 ## Setup
 All you need is VSCODE.
@@ -58,7 +58,8 @@ Room for improvement:
 - more to follow
 
 To do:
-- 99 more days
+
+- 97 more days
 
 
 ## Acknowledgements
