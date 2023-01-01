@@ -38,11 +38,18 @@ Skills to work on:
 - in this case, when the fast hits null, slow will equal the middle node. 
 - you can also create a new temporary head to make things easier, and will require slow to iterate one position further at the end. 
 
-2. // Prompt
-// Given a 2D rectangular matrix, return all of the values in a single, linear array in spiral order. Start at (0, 0) and first include everything in the first row. Then down the last column, back the last row (in reverse), and finally up the first column before turning right and continuing into the interior of the matrix.
+2. Prompt
+Given a 2D rectangular matrix, return all of the values in a single, linear array in spiral order. Start at (0, 0) and first include everything in the first row. Then down the last column, back the last row (in reverse), and finally up the first column before turning right and continuing into the interior of the matrix.
 
 - first attempt was the naive way.
 - answer use loops in a switch statment with directions, row start and end variables along with column start and end varialbes. 
+
+3. Prompt
+Given a linked list, reverse groups of k nodes. These groups will remain in order themselves. For example, if we perform this operation with k=2 on the following list:
+
+1 -> 2 -> 3 -> 4-> 5
+
+First review how to reverse a linked list that look at the solution.
 
 ## Setup
 All you need is VSCODE.
@@ -59,7 +66,7 @@ Room for improvement:
 
 To do:
 
-- 97 more days
+- 96 more days
 
 
 ## Acknowledgements
