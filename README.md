@@ -51,6 +51,22 @@ Given a linked list, reverse groups of k nodes. These groups will remain in orde
 
 First review how to reverse a linked list that look at the solution.
 
+4. Prompt
+A Toeplitz Matrix is one where the values on every diagonal are the same: Given a 2d matrix (multidimensional array), return true if the input is a Toeplitz matrix and false otherwise.
+
+ 
+
+Example of a valid Toeplitz matrix:
+
+1 2 3 4
+5 1 2 3
+6 5 1 2
+7 6 5 1
+
+- use row-major traversal, save value 
+- start checking at row 1 and check up to the left matrix value is same as saved value
+
+
 ## Setup
 All you need is VSCODE.
 
