@@ -82,7 +82,7 @@ Room for improvement:
 
 To do:
 
-- 96 more days
+- 95 more days
 
 
 ## Acknowledgements
