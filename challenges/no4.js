@@ -34,7 +34,7 @@ function isToeplitz(m) {
     }
   }
 
-  //bottom diagonal off 
+  //bottom diagonal incorrect
   for (let row = 1; row < m.length-1; row++) {
     for (let col = 0; col<row; col++) {
       console.log({"m[row][col]": m[row][col],"lRow[col]": lRow[(m.length-row)-1]})
