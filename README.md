@@ -88,6 +88,24 @@ function isMatrixMonotonic(matrix) {
  /* your code here */
 }
 
+- row-major traversal 
+- save current value
+- ROWS: if statement that starts check at rows starting and column 1
+- check the prev values, if greater than current value return false
+- COLUMNS: if statment that checks columns starting at row one
+- check the precdeing col values, if greater than current value return false
+
+6. Prompt
+
+Given a matrix that is monotonically increasing along all rows and columns, as well as a value, k, return true if the value exists in the matrix and false otherwise.
+
+[]function findInMonotonic(matrix, k) {
+  /* your code here */
+}
+
+- Strategy: Use Binary Search-start in the middle row, if in the preceding row is lower and the value in the next row is greater, check current row. else row++? 
+
+
 ## Setup
 All you need is VSCODE.
 
