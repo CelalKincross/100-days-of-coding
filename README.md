@@ -104,7 +104,19 @@ Given a matrix that is monotonically increasing along all rows and columns, as w
 }
 
 - Strategy: Use Binary Search-start in the middle row, if in the preceding row is lower and the value in the next row is greater, check current row. else row++? 
+ - Binary search was a terrible idea :bomb:
+ - Better strategy is to start a corner where one branch ends as the highest value and also begin as the lowest value or vice versa. For instance, bottom left. 
+ - while row is greater than 0 and column less than the length of rows, check if k is greater than value.
+ - if so check the next column (col are increasing at bottom left)
+ - else check previous row. 
 
+ 7. Prompt
+
+Given a string, return true if the letters can be re-arranged to make a palindrome using every letter. Otherwise, return false.
+
+function isPalindromeAnagram(word) {
+  /* your code here */
+}
 
 ## Setup
 All you need is VSCODE.
