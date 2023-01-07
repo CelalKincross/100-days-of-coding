@@ -118,6 +118,42 @@ function isPalindromeAnagram(word) {
   /* your code here */
 }
 
+- the letter frequency of a palindrome is even except for the middle letter. Create a dictionary and do a count then return the count of the odd number of letter count. 
+
+8. Prompt
+
+Given a binary tree, convert this to a doubly linked list in the order of the in-order traversal. This operation should be done in place, not creating any new data structure. You must re-use the node's left pointer as the pointer to the previous node in the list and the right pointer should be the next node in the list.
+
+
+At the end, return a pointer the first node in the list.
+
+ /*
+  * You may assume the node class is:
+  * class Node {
+  *   constructor(value, left = null, right = null) {
+  *     this.value = value;
+  *     this.left = left;
+  *     this.right = right;
+  *   }
+  * }
+  */
+function tree2list(root) {
+  /* your code here */
+}
+
+
+To convert a binary tree to a doubly linked list in the order of the in-order traversal, you can use a recursive approach that processes the left subtree, current node, and right subtree in that order.
+
+Here is a high-level outline of the algorithm:
+
+If the root is null, return null.
+Process the left subtree by calling the function recursively on the left child of the root.
+If the left subtree is not null, set the right pointer of the last node in the list to the root and the left pointer of the root to the last node.
+Update the last node to be the root.
+Process the right subtree by calling the function recursively on the right child of the root.
+If the right subtree is not null, set the left pointer of the first node in the list to the root and the right pointer of the root to the first node.
+Return the first node in the list.
+
 ## Setup
 All you need is VSCODE.
 
@@ -133,9 +169,9 @@ Room for improvement:
 
 To do:
 
-- 95 more days
+- 92 more days
 
-
+9.
 ## Acknowledgements
 - This project was inspired by formation 21-day challenge, [formation](https://formation.dev/).
 - Many thanks to... to follow...
