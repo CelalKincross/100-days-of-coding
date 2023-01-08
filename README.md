@@ -154,6 +154,16 @@ Process the right subtree by calling the function recursively on the right child
 If the right subtree is not null, set the left pointer of the first node in the list to the root and the right pointer of the root to the first node.
 Return the first node in the list.
 
+
+9. Prompt
+
+Implement binary search on an array. Return the index of the value if found and -1 otherwise.
+
+function binarySearch(data, k) {
+  /* your code here */
+}
+
+
 ## Setup
 All you need is VSCODE.
 
@@ -169,7 +179,7 @@ Room for improvement:
 
 To do:
 
-- 92 more days
+- 91 more days
 
 9.
 ## Acknowledgements
