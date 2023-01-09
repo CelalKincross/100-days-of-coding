@@ -161,8 +161,21 @@ Implement binary search on an array. Return the index of the value if found and 
 
 function binarySearch(data, k) {
   /* your code here */
+
 }
 
+a. If the array has fewer than 2 elements, return the array.
+b. Split the array into two halves.
+c. Recursively sort the left half.
+d. Recursively sort the right half.
+e. Merge the sorted left and right halves.
+
+10. 
+Prompt: Implement merge sort on an array.
+
+function mergeSort(data) {
+  /* your code here */
+}
 
 ## Setup
 All you need is VSCODE.
@@ -179,9 +192,8 @@ Room for improvement:
 
 To do:
 
-- 91 more days
+- 90 more days
 
-9.
 ## Acknowledgements
 - This project was inspired by formation 21-day challenge, [formation](https://formation.dev/).
 - Many thanks to... to follow...
