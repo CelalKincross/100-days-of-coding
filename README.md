@@ -192,7 +192,7 @@ Room for improvement:
 
 To do:
 
-- 90 more days
+- 89 more days
 
 ## Acknowledgements
 - This project was inspired by formation 21-day challenge, [formation](https://formation.dev/).
