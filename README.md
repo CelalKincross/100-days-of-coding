@@ -257,6 +257,20 @@ function mazeSolver(maze) {
 - First do a maze with no cycles
 - Next, use a maze with cycles and avoid infinite loops
 
+14. Prompt
+
+Given a set of characters (guaranteed to be unique) and a minimum and maximum length, generate all possible passwords that meet the following criteria:
+The same characters cannot appear consecutively
+The same character can occur no more than twice in any password
+
+
+The output should be an array containing the passwords as strings. Return an empty array if no valid password can be generated.
+
+function generatePassword(characters, minlength, maxlength) {
+  /* your code here */
+}
+
+
 ## Setup
 All you need is VSCODE.
 
