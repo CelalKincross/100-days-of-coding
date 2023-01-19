@@ -270,6 +270,13 @@ function generatePassword(characters, minlength, maxlength) {
   /* your code here */
 }
 
+15. Prompt
+
+Given an N times N board, place N queens on the board such that none can attack each other. A queen can move an unlimited number of spaces in any direction: horizontal, vertical, or diagonal. Return an N times N matrix of ‘.’ and ‘Q’ characters, a ‘Q’ where ever a queen is positioned.
+
+function nQueens(n) {
+  /* your code here */
+}
 
 ## Setup
 All you need is VSCODE.
@@ -286,7 +293,7 @@ Room for improvement:
 
 To do:
 
-- 89 more days
+- 84 more days
 
 ## Acknowledgements
 - This project was inspired by formation 21-day challenge, [formation](https://formation.dev/).
