@@ -1,4 +1,4 @@
-// Here's a problem I don't understand: Prompt
+//Prompt
 
 // Given an array of daily high temperatures for a city, produce a new array as output where each value is the number of days forward that has a temperature higher than this day. All of the temperature values are normal earth temperatures.
 
