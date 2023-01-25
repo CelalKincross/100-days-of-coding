@@ -285,6 +285,21 @@ Given an array of daily high temperatures for a city, produce a new array as out
 
 For example, if the daily highs are [50, 55, 53, 52, 60, 65, 63], then the result should be [ 1,  3,  2,  1,  1,  0,  0]. The last two values are special cases because there are no days in the future predicted to be hotter.
 
+17. Given a triangle array, return the minimum path sum from top to bottom. For each step, you may move to an adjacent number of the row below. More formally, if you are on index i on the current row, you may move to either index i or index i + 1 on the next row. For example, if given the following input:
+
+[
+  [2],
+  [3,4],
+  [6,5,7],
+  [4,1,8,3]
+]
+
+Here, the result is 11 because of the path 2 + 3 + 5 + 1.
+
+function triangleLowestPath() {
+  /* your code here */
+}
+
 ## Setup
 All you need is VSCODE.
 
