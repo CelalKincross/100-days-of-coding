@@ -300,6 +300,13 @@ function triangleLowestPath() {
   /* your code here */
 }
 
+18. Prompt
+Given an array of points (x, y) in a two-dimensional space find the k closest points to the origin (0, 0).
+
+function kClosestPoints(points, k) {
+  /* your code here */
+  }
+
 ## Setup
 All you need is VSCODE.
 
@@ -315,7 +322,7 @@ Room for improvement:
 
 To do:
 
-- 84 more days
+- 82 more days
 
 ## Acknowledgements
 - This project was inspired by formation 21-day challenge, [formation](https://formation.dev/).
